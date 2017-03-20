@@ -1,0 +1,13 @@
+
+#!/bin/bash
+
+result=
+case "$@ filename" in
+   
+        [ -d "$filename" ]) result="$filename is a directory";;
+        	echo "$result"
+	[ -w "$filename" ]) result="$result and it is writable";;
+ 		echo "$result"
+	*) result="$result and it is not writable";;
+		echo "$result"
+esac

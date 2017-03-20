@@ -1,0 +1,9 @@
+!#/bin/bash
+
+echo -n "Is mike grateful for Louis' help? Y/N"
+read character
+if [ Y ]; then
+	echo "why yes he is."
+else
+	echo "no he's a nasty man"
+fi

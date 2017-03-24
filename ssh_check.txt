@@ -1,0 +1,1 @@
+This text is to ensure the ssh method of hosting a repository on github has worked as well as the https method
